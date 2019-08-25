@@ -23,27 +23,27 @@ public class ComputerTester {
         Computer fourth = new Computer("dell","decent",8,500,false,500);
         System.out.println(fourth);
 
-		// try(var output =new PrintWriter(new FileOutputStream(
-		// 	    new File("output.txt"), true /* true means append to file */))) {
-		// 	output.println("\nTESTS FOR Computer.java:");
-        //
-		// //Copy all your lines above, add an extra "2" to every variable name
-		// // and replace every System.out.print or System.out.println
-		// // by output.print or output.println
-        // Computer first2 = new Computer("dell","very fast",32,2500,true,3000);
-        // output.out.println(first2);
-        //
-        // Computer second2 = new Computer("dell","fast",16,1500,false,1500);
-        // output.out.println(second2);
-        //
-        // Computer third2 = new Computer("dell","good",16,800,true,900);
-        // output.out.println(third2);
-        //
-        // Computer fourth2 = new Computer("dell","decent",8,500,false,500);
-        // output.out.println(fourth2);
-        //
-		// } catch (FileNotFoundException e) {
-		// 	e.printStackTrace();
-		// }
+		try(var output =new PrintWriter(new FileOutputStream(
+			    new File("output.txt"), true /* true means append to file */))) {
+			output.println("\nTESTS FOR Computer.java:");
+
+		//Copy all your lines above, add an extra "2" to every variable name
+		// and replace every System.out.print or System.out.println
+		// by output.print or output.println
+        Computer first2 = new Computer("dell","very fast",32,2500,true,3000);
+        output.println(first2);
+
+        Computer second2 = new Computer("dell","fast",16,1500,false,1500);
+        output.println(second2);
+
+        Computer third2 = new Computer("dell","good",16,800,true,900);
+        output.println(third2);
+
+        Computer fourth2 = new Computer("dell","decent",8,500,false,500);
+        output.println(fourth2);
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 }

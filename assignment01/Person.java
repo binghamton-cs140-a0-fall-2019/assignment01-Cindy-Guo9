@@ -63,13 +63,12 @@ public class Person {
 
 	}
 // TODO provide the getter methods for placeDob and address
-
-//    public String getplaceDob(){
-//		return DateAndPlaceOfBirth.toString();
-//	}
-//	public String getaddress(){
-//		return StreetUSAddress.toString();
-//	}
+	public DateAndPlaceOfBirth getPlaceDob() {
+		return placeDob;
+	}
+	public StreetUSAddress getAddress() {
+		return address;
+	}
 
 // TODO Override the public String toString() method that is similar to the
 // toString of the StreetUSAddress class and will print a person as:
