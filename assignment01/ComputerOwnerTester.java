@@ -22,7 +22,7 @@ public class ComputerOwnerTester {
         own1.removeComputer(2);
         System.out.println(own1);
 
-        try(var output =new PrintWriter(new FileOutputStream(
+        try(var output = new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
 			output.println("\nTESTS FOR ComputerOwnerTester.java:");
 

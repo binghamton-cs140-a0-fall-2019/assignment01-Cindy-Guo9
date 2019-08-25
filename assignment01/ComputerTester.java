@@ -23,7 +23,7 @@ public class ComputerTester {
         Computer fourth = new Computer("dell","decent",8,500,false,500);
         System.out.println(fourth);
 
-		try(var output =new PrintWriter(new FileOutputStream(
+		try(var output = new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
 			output.println("\nTESTS FOR Computer.java:");
 

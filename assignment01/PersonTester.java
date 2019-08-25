@@ -11,7 +11,7 @@ public class PersonTester {
         System.out.println(myPerson);
 
 
-        try(var output =new PrintWriter(new FileOutputStream(
+        try(var output = new PrintWriter(new FileOutputStream(
                 new File("output.txt"), true /* true means append to file */))) {
             output.println("\nTESTS FOR PersonTester.java:");
 

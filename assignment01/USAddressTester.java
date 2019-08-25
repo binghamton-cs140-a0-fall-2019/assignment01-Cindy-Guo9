@@ -10,7 +10,7 @@ public class USAddressTester {
         System.out.println(addr1 + "\n");
         System.out.println(addr2);
 
-        try(var output =new PrintWriter(new FileOutputStream(
+        try(var output = new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
 			output.println("\nTESTS FOR StreetUSAddress.java:");
 
