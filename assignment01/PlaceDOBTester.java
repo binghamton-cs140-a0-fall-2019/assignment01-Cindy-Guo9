@@ -119,7 +119,7 @@ public class PlaceDOBTester {
         System.out.println(birth5.olderThan(birth3));
         System.out.println(birth5.olderThan(birth4));
 
-        try(var output =new PrintWriter(new FileOutputStream(
+        try(var output = new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
 			output.println("\nTESTS FOR DateAndPlaceOfBirth.java:");
 
