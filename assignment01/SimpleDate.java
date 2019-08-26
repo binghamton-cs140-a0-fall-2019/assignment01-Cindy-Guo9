@@ -11,20 +11,20 @@ public class SimpleDate {
     //     day = d;
     // }
      public static SimpleDate of(int yr, int m, int d){
-        var returnValue = new SimpleData();
+        var returnValue = new SimpleDate();
         returnValue.year = yr;
         returnValue.month = m;
         returnValue.day = d;
         return returnValue;
 	}
 	/**
-	 * @param year the year (use 4 digits)
-	 * @param month the month (a value of 1 through 12)
-	 * @param day the day in the month
+	 * @param yr the year (use 4 digits)
+	 * @param m the month (a value of 1 through 12)
+	 * @param d the day in the month
 	 */
 
      public boolean before(SimpleDate other){
-         return(returnValue.isBefore(other.SimpleDate));
+         return returnValue.isBefore(other.SimpleDate);
      }
 
 //which returns true if this SimpleDate is temporally before other and false otherwise.
