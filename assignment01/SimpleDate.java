@@ -24,10 +24,20 @@ public class SimpleDate {
 	 */
 
      public boolean before(SimpleDate other){
-         return returnValue.isBefore(other.SimpleDate);
-     }
+         if(this.year < other.year){
+             return true;
+        }else if(this.year == other.year){
+            if(this.month < other.month){
+                return true;
+            }else if(this.month == other.month)
+                if(this.day < other.day){
+                    return true;
+                }else{
+                    return false;
+             }
 
-//which returns true if this SimpleDate is temporally before other and false otherwise.
-//Write a class SimpleDateTester.java that checks that the method before works.
+         }
+         return false;
+     }
 
 }
