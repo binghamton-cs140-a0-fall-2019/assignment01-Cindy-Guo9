@@ -5,12 +5,7 @@ public class SimpleDate {
     private int month;
     private int day;
 
-    // public SimpleDate(int yr, int m, int d){
-    //     year = yr;
-    //     month = m;
-    //     day = d;
-    // }
-     public static SimpleDate of(int yr, int m, int d){
+    public static SimpleDate of(int yr, int m, int d){
         var returnValue = new SimpleDate();
         returnValue.year = yr;
         returnValue.month = m;
@@ -27,7 +22,9 @@ public class SimpleDate {
          if(this.year == other.year && this.month == other.month &&
          this.day == other.day){
              return false;
-        }else if(this.year < other.year){
+        }
+
+        if(this.year < other.year){
             return true;
         }else if(this.year > other.year){
             return false;
@@ -46,5 +43,7 @@ public class SimpleDate {
         }
     return false;
     }
+
+
 
 }
