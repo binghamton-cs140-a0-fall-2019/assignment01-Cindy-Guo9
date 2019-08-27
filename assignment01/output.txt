@@ -1,0 +1,127 @@
+
+TESTS FOR Computer.java:
+dell, very fast, 32GB Memory, 2.5TB Solid State Drive, Price: $3000.00 
+dell, fast, 16GB Memory, 1.5TB Hard Drive, Price: $1500.00 
+dell, good, 16GB Memory, 800GB Solid State Drive, Price: $900.00 
+dell, decent, 8GB Memory, 500GB Hard Drive, Price: $500.00 
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1990-06-20, Binghamton, New York, USA
+true
+true
+false
+false
+true
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+Date and place of birth: 1990-06-20, New York City, New York, USA
+true
+true
+false
+false
+true
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+Date and place of birth: 1995-06-20, Syracuse, New York, USA
+true
+true
+false
+false
+false
+false
+false
+false
+true
+true
+false
+false
+false
+false
+true
+true
+Date and place of birth: 1996-10-01, London, UK
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+false
+false
+false
+false
+true
+Date and place of birth: 1997-01-02, Paris, France
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+true
+false
+false
+false
+false
+
+TESTS FOR StreetUSAddress.java:
+4400 Vestal Pkwy
+Binghamton, NY 13902
+
+123 Maple Street
+Apt 312
+Buffalo, NY 14211
+
+TESTS FOR PersonTester.java:
+Bob
+Smith
+111223333, Date and place of birth: 1994-12-12, Binghamton, New York, USA 4321 Court Street
+Los Angeles, CA 90001
+
+TESTS FOR ComputerOwnerTester.java:
+Computer List, Owner: Bob
+Smith
+111223333, Date and place of birth: 1994-12-12, Binghamton, New York, USA 4321 Court Street
+Los Angeles, CA 90001
+Computers: [dell, very fast, 32GB Memory, 2.5TB Solid State Drive, Price: $3000.00 , dell, fast, 16GB Memory, 1.5TB Hard Drive, Price: $1500.00 , dell, good, 16GB Memory, 800GB Solid State Drive, Price: $900.00 , dell, decent, 8GB Memory, 500GB Hard Drive, Price: $500.00 ]
+Computer List, Owner: Bob
+Smith
+111223333, Date and place of birth: 1994-12-12, Binghamton, New York, USA 4321 Court Street
+Los Angeles, CA 90001
+Computers: [dell, fast, 16GB Memory, 1.5TB Hard Drive, Price: $1500.00 , dell, good, 16GB Memory, 800GB Solid State Drive, Price: $900.00 ]
+
+TESTS FOR SimpleDate.java:
+false
+false
+true
+false
+true
+true
