@@ -24,8 +24,11 @@ public class SimpleDate {
 	 */
 
      public boolean before(SimpleDate other){
-         if(this.year < other.year){
-             return true;
+         if(this.year == other.year && this.month == other.month &&
+         this.day == other.day){
+             return false;
+        }else if(this.year < other.year){
+            return true;
         }else if(this.year > other.year){
             return false;
         }else if(this.year == other.year){
@@ -41,7 +44,7 @@ public class SimpleDate {
                 }
             }
         }
-    return true;
+    return false;
     }
 
 }
